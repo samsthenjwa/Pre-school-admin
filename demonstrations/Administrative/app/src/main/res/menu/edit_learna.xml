@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/edit"
+        android:title="Log out"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/edit"/>
+
+    <item android:id="@+id/delet"
+        android:title="Add new student"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/bin"
+
+        />
+</menu>

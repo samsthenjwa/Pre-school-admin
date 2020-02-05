@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_roles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/rainbow_swirls_vector_background_523382"
+    android:orientation="vertical"
+    tools:context="com.example.sambulo.administrative.changeRoles"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/ChooseUsertv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:gravity="center_horizontal|center"
+        android:text="@string/choose_user"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <Spinner
+        android:id="@+id/userNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"/>
+
+    <TextView
+        android:id="@+id/Change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/change_role"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbAnyUser">
+
+    <RadioButton
+        android:id="@+id/noneUserRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/none" />
+
+    <RadioButton
+        android:id="@+id/educatorRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Educator" />
+
+    <RadioButton
+        android:id="@+id/adminRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Admin" />
+
+    <RadioButton
+        android:id="@+id/MasterRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Master" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmitChange"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_width="match_parent"
+        android:onClick="btnSubmitChange"
+        android:layout_height="wrap_content"
+        android:text="@string/SubmitChanges" />
+
+
+
+</LinearLayout>

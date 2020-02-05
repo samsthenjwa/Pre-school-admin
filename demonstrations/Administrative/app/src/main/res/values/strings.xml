@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Administrative</string>
+    <string name="reg_hint">please enter name and surname</string>
+    <string name="email_hint">please enter email address</string>
+    <string name="password_hint">enter password</string>
+    <string name="btn_done">DONE</string>
+    <string name="heading_report">Choose what to report:</string>
+    <string name="btn_maiteinance">REPORT MAINTENANCE PROBLEM</string>
+    <string name="btn_learner">REPORT LEARNER</string>
+    <string name="choose_user">Choose User</string>
+    <string name="change_role">Change the user\'s role</string>
+    <string name="none">None</string>
+    <string name="Educator">Educator</string>
+    <string name="Admin">Admin</string>
+    <string name="Master">Master</string>
+    <string name="SubmitChanges">SUBMIT CHANGES</string>
+    <string name="tens">10C</string>
+    <string name="twenthies">20C</string>
+    <string name="fifty">50C</string>
+    <string name="OneRand">R1</string>
+    <string name="TwoRand">R2</string>
+    <string name="btnSbmtTran">SUBMIT TRANSATION</string>
+    <string name="btnReset">RESET TRANSACTION</string>
+    <string name="CurrentBalance">Current balance: </string>
+    <string name="Currenttrans">Current transaction: </string>
+    <string name="After">After transaction: </string>
+    <string name="userType">Types of Users</string>
+    <string name="master">Master</string>
+    <string name="admin">ADMIN</string>
+    <string name="Default">DEFAULT</string>
+    <string name="FiveRands">R5</string>
+    <string name="NONE">NONE</string>
+    <string name="searchLearner">search for learner</string>
+    <string name="Title">Title: </string>
+    <string name="statusIssue">Ststus of report</string>
+    <string name="learnerName">Learner name</string>
+    <string name="createdDate">Date the report was created</string>
+    <string name="updatedate">Date the report was updated</string>
+    <string name="actualReport">Actual report </string>
+    <string name="parentsInfo">Paernts information</string>
+    <string name="motherTitle">Mother</string>
+    <string name="motherName">Name</string>
+    <string name="motherPhone">Phone</string>
+    <string name="motherAddress">Email</string>
+    <string name="fatherTitle">Father</string>
+    <string name="fatherName">Name</string>
+    <string name="fatherPhone">Phone</string>
+    <string name="fatherAddress">Email</string>
+    <string name="docterInfo">Docter Information</string>
+    <string name="docterName">name</string>
+    <string name="medName">Medical aid name</string>
+    <string name="medPlan">Medical plan</string>
+    <string name="medNumber">Medical number</string>
+    <string name="docPhone">Phone number</string>
+    <string name="shopBalance">learner tuck shop balance</string>
+    <string name="allergies">allergies</string>
+    <string name="btnOk">Ok</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnResetPass">Reset password</string>
+    <string name="tvChoose">Choose a learner from the sea Buddies class:</string>
+    <string name="tvRecomendation">Recommendation</string>
+    <string name="rbjust_for_info">Just for information</string>
+    <string name="rbInform_parents">Inform parents</string>
+    <string name="rbProHelp">Get professional help</string>
+    <string name="rptTitle">Enter title for report</string>
+    <string name="rptData">enter data for report</string>
+    <string name="btnSbmtRpt">SUBMIT REPORT </string>
+    <string name="gender">Gender</string>
+    <string name="personName">First Name</string>
+    <string name="personLastName">Last Name</string>
+    <string name="personalInfo">Personal Information</string>
+    <string name="rbMale">Male</string>
+    <string name="rbFemale">Female</string>
+    <string name="tvClass">Class</string>
+    <string name="tvRace">Race</string>
+    <string name="shift">Shifts</string>
+    <string name="rbHalf">Half</string>
+    <string name="rbFull">Full</string>
+    <string name="btnnext">NEXT--></string>
+    <string name="idNum">ID Number</string>
+    <string name="postalAdd">Postal Address</string>
+    <string name="birthDate">Date of Birth</string>
+    <string name="enrolDate">Date of enrollment</string>
+    <string name="sbmtClassBtn">Submit Class</string>
+    <string name="class1">Class A</string>
+    <string name="class2">Class B</string>
+    <string name="class3">Class C</string>
+    <string name="class4">Class D</string>
+    <string name="class5">Class E</string>
+    <string name="class6">Class F</string>
+    <string name="selectClass">SELECT A CLASS</string>
+    <string name="btnClasses">CLASSES</string>
+    <string name="btnTckShop">TUCK SHOP</string>
+    <string name="btnReport">REPORT</string>
+    <string name="btnAdmin">ADMIN/MASTER MENU</string>
+    <string name="btnCapture">Capture</string>
+    <string name="btnBrowse">Browse</string>
+    <string name="etRegPasswordConf">Confirm password</string>
+    <string name="language">Language of Instruction</string>
+    <string name="racePrompt">Select your race</string>
+
+
+    <string-array name="Race">
+        <item>Black </item>
+        <item> White</item>
+        <item>Asian </item>
+        <item> Indian</item>
+        <item>Coloured </item>
+    </string-array>
+
+    <string-array name="Language_of_instruction">
+        <item>English</item>
+        <item>Sotho</item>
+        <item>Zulu</item>
+        <item>Pedi</item>
+        <item>Xhosa</item>
+        <item>Afrikaans</item>
+        <item>Vhenda</item>
+    </string-array>
+
+
+    <string-array name="Classes">
+        <item>Pin Pops</item>
+        <item>Big Boom</item>
+        <item>Yoghetta</item>
+        <item>Monster Pop</item>
+        <item>Stumbo</item>
+        <item>Watermellon</item>
+
+    </string-array>
+
+    <string-array name="Roles">
+        <item>Select a Role</item>
+        <item>Master</item>
+        <item>Admin</item>
+        <item>Default</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string-array name="Maitenance">
+        <item>---Select maintenance---</item>
+        <item>Pipe Blockage</item>
+        <item>Broken windows</item>
+        <item>Leaking taps</item>
+        <item>Electricity triping</item>
+        <item>Yard cleaning</item>
+
+    </string-array>
+    <string-array name="ListViewSelection">
+        <item>Select the reports you want to see..</item>
+        <item>Show all reports</item>
+        <item>Show resolved reports</item>
+        <item>Show unresolved reports</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="gendertv">Gender</string>
+    <string name="police">Police :</string>
+    <string name="fire">Fire :</string>
+    <string name="ambulance">Ambulance :</string>
+    <string name="child">Child Support :</string>
+    <string name="emergency">Emergancy :</string>
+
+
+</resources>
